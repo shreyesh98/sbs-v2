@@ -1,37 +1,3 @@
-@media only screen and (min-width: 480px) {
-
-/*-------------------------------------home-----------------------------------*/
-
-     header{ 
-          font-size: 20%;
-         padding: 40%;
-     }
-     a#navs.nav-link{
-     	font-size: 80%;
-     }
-
-/*<!-------------------------------gallery----------------------------------------->*/
-
-    .gallery p{
-        font-size: 16px;
-     }
-
-/*<!-------------------------------events----------------------------------------->*/
-     
-    .events p{
-        font-size: 16px;
-     }
-
-/*<!-------------------------------about us----------------------------------------->*/
-
-     .aboutus p{
-        font-size: 16px;
-     }
-     .alert.alert-warning{
-        font-size: 13px;
-     }
-
-}
 
 @media only screen and (max-width: 768px) {
 
