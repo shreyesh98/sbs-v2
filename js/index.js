@@ -1,9 +1,9 @@
 
-var name = prompt("What's your name??")
-var welcome = alert("Welcome to Sai Bhargavi Residency "+ name)
-
 $(document).ready(function(){
 
+var name = prompt("What's your name??")
+var welcome = alert("Welcome to Sai Bhargavi Residency "+ name)
+ 
 // scrolling effect
 
  $("a").on('click', function(event) {
