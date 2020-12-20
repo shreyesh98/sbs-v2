@@ -119,11 +119,8 @@ div.col{
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.events p{
-margin: 0px;
-padding: 0px;
+  margin-top: 2%;
+  padding: 10%;
 }
 
 .upcoming h2{
