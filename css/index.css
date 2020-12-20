@@ -125,12 +125,19 @@ div.col{
 
 .upcoming h2{
   font-family: 'Courgette', cursive;
-    text-align: center;
+  text-align: center;
 }
 
 .upcoming p{
   font-family: 'Balsamiq Sans', cursive;
     text-align: center;
+}
+
+.events ul li{
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .upcoming{
