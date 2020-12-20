@@ -1,0 +1,221 @@
+
+/*-------------------------------------home-----------------------------------*/
+
+header {
+    background-image: url(C:/Users/Shreyesh/Desktop/Building/img/home/home.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+nav {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.navbar.fixed-top.scrolled {
+    background-color: #0f4c5c !important;
+    transition: background-color 2000ms linear;
+    margin-bottom: 20%;
+}
+
+ul.navbar-nav {
+    flex-direction: row;
+}
+
+#navs {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+#navs:hover {
+    text-shadow: 1px 1px 2px grey, 0 0 1em #00f5d4, 0 0 0.2em blue;
+    text-decoration: underline;
+}
+
+header h1,
+header h3 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    text-shadow: 0 0 0.2em #0D7375;
+}
+
+header h1 {
+    letter-spacing: 1px;
+}
+
+header h3 {
+    margin-bottom: 25%;
+}
+
+
+/*----------------------------------header common---------------------------------*/
+
+section h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    font-family: 'Courgette', cursive;
+    padding-bottom: 1%;
+}
+
+section p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.text-shadow-drop-center{
+  animation: text-shadow-drop-center 1s infinite both;
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 254, 235, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 254, 235, 2);
+  }
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 254, 235, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 254, 235, 2);
+  }
+}
+
+/*--------------------------------------gallery---------------------------------------*/
+
+.gallery p{
+margin: 0px;
+padding: 0px;
+margin-bottom: 3%;
+}
+
+img{
+  padding: 1px;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+div.col{
+  padding: 0px;
+}
+
+/*<!-------------------------------events----------------------------------------->*/
+
+.events{
+  background: url(https://i.pinimg.com/564x/c1/a2/4c/c1a24c8389586304eb41634300a992a2.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.events p{
+margin: 0px;
+padding: 0px;
+}
+
+.upcoming h2{
+  font-family: 'Courgette', cursive;
+}
+
+.upcoming p{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.upcoming{
+  border: 3px outset #9A9C9B;
+  text-align: center;
+}
+
+/*<-------------------------------about us----------------------------------------->*/
+
+.aboutus p{
+margin: 0px;
+padding: 0px;
+}
+
+.alert.alert-warning{
+  margin: 30px;
+}
+
+.fa-snapchat-square {
+  color: rgb(211, 214, 0);
+  font-size: 18px;
+  margin: 2%;
+}
+
+.fa-whatsapp{
+     color: rgb(37, 211, 102); 
+     font-size: 18px;
+     margin: 2%; 
+}
+
+.fa-instagram{
+    color: #3f729b;
+    font-size: 18px;
+    margin: 2%;
+}
+
+.fa-twitter-square{
+    color: #00acee;
+    font-size: 18px;
+    margin: 2%;
+}
+
+.far.fa-envelope{
+    color: red;
+    font-size: 18px;
+    margin: 2%;
+}
+
+.title h1{
+  font-size: 25px;
+  font-family: 'Acme', sans-serif;
+  font-weight: normal;
+}
+
+.title h3{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.cards{
+  width: 60%; 
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-left: 20%; 
+  box-shadow: 2px 2px 10px black;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding: 5px;
+}
+
+/*<!-------------------------------footer----------------------------------------->*/
+
+footer{
+ color: #adb5bd;
+ background: #333333;
+ text-align: center;
+ padding: 20px;
+}
