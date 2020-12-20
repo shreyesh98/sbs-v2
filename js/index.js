@@ -1,6 +1,6 @@
 
-// var name = prompt("What's your name??")
-// var welcome = alert("Welcome to Sai Bhargavi Residency "+ name)
+var name = prompt("What's your name??")
+var welcome = alert("Welcome to Sai Bhargavi Residency "+ name)
 
 $(document).ready(function(){
 
