@@ -71,6 +71,10 @@ section p{
   font-family: 'Balsamiq Sans', cursive;
 }
 
+img:hover {
+    transform: scale(1.03);
+}
+
 .text-shadow-drop-center{
   animation: text-shadow-drop-center 1s infinite both;
 }
@@ -107,11 +111,6 @@ img{
   height: 100%;
   width: 100%;
 }
-
-img:hover {
-    transform: scale(1.03);
-}
-
 div.col{
   padding: 0px;
 }
