@@ -149,6 +149,10 @@ div.col{
 
 /*<-------------------------------about us----------------------------------------->*/
 
+.cards img {
+    padding: 0px;
+}
+
 .aboutus p{
 margin: 0px;
 padding: 0px;
