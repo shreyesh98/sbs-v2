@@ -1,12 +1,13 @@
 
 $(document).ready(function(){
 
-let name = prompt("What's your name??");
- 
-if (name === null) {
-   let name = prompt("What's your name??")
-   let welcome = alert("Welcome to Sai Bhargavi Residency "+ name)
-}
+    let name = prompt("What's your name??");
+
+    if (name === null) {
+        alert("Welcome to Sai Bhargavi Residency.")
+    } else {
+        alert("Welcome to Sai Bhargavi Residency " + name + ".")
+    }
  
 // scrolling effect
 
